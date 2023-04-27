@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Card Game</title>
+<link rel='stylesheet' href='style.css'>
+<script src='reavealCards.js'></script>
+</head>
+<body>
+<section>
+<div class='player'>
+<h2>Ramesh</h2>
+<div class='card'>
+<div class='card-inner' id='DIAMOND-THREE'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<div class='card'>
+<div class='card-inner' id='SPADE-THREE'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<div class='card'>
+<div class='card-inner' id='DIAMOND-FOUR'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<button onclick='revealCards(this)'>Show the highest card</button>
+<div class='card'>
+<div class='card-inner' id='DIAMOND-FOUR'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+</div>
+<div class='player'>
+<h2>Suresh</h2>
+<div class='card'>
+<div class='card-inner' id='CLUB-ACE'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<div class='card'>
+<div class='card-inner' id='DIAMOND-KING'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<div class='card'>
+<div class='card-inner' id='DIAMOND-JACK'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+<button onclick='revealCards(this)'>Show the highest card</button>
+<div class='card'>
+<div class='card-inner' id='CLUB-ACE'>
+<div class='card-front'></div>
+<div class='card-back'></div>
+</div>
+</div>
+</div>
+<button onclick='showWinner("Suresh",56)'>Declare Winner</button>
+<div id="winner"></div></section>
+</body>
+</html>
